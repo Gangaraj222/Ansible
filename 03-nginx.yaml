@@ -1,4 +1,4 @@
-- name: Install Nginx package
+- name: Install nginx package
   hosts: frontend
   become: yes
   ansible.builtin.package:
