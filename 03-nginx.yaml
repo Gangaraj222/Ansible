@@ -1,6 +1,0 @@
-- name: Install nginx package
-  hosts: frontend
-  become: yes
-  ansible.builtin.package:
-    name: nginx
-    state: present
