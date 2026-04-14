@@ -3,5 +3,5 @@
   hosts: frontend
   
   tasks:
-   - name: nginx
-     state: present
+  - name: nginx
+    state: present
